@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.box{
+    height: 100vh;
+    background-image: url("./img/Vector1.png"),url("./img/Vector.png");
+    background-position: left bottom,right top;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+h2{
+    text-shadow: 5px 5px 5px blue;
+    font-size: 30px;
+}
+.shadows{
+    display: flex;
+    gap: 100px;
+    padding: 50px 0;
+}
+.img-box{
+    width: 45%;
+}
+.img-box img{
+    width: 100%;
+}
+.shadow{
+
+    width: 164px;
+    height: 164px;
+    box-shadow: 10px 10px 30px green;
+}
+.shadow-box{
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
